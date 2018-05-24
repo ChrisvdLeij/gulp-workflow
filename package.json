@@ -1,8 +1,23 @@
 {
   "name": "gulp-wordpress-workflow",
   "version": "1.0.0",
-  "description": "A gulp WordPress workflow",
-  "main": "index.js",
+  "description": "gulp wordpress workflow for in a theme",
+  "main": "gulpfile.babel.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sass-lint": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-webpack": "^1.5.0",
+    "webpack": "^4.8.3",
+    "webpack-stream": "^4.0.3"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,20 +25,10 @@
     "type": "git",
     "url": "git+https://github.com/ChrisvdLeij/gulp-workflow.git"
   },
-  "author": "Chris vd Leij",
+  "author": "Chris van der Leij",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ChrisvdLeij/gulp-workflow/issues"
   },
-  "homepage": "https://github.com/ChrisvdLeij/gulp-workflow#readme",
-  "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-preset-es2015": "^6.24.1",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^5.0.0",
-    "gulp-notify": "^3.2.0",
-    "gulp-sass": "^4.0.1",
-    "gulp-sass-lint": "^1.4.0",
-    "gulp-sourcemaps": "^2.6.4"
-  }
+  "homepage": "https://github.com/ChrisvdLeij/gulp-workflow#readme"
 }
