@@ -1,0 +1,27 @@
+{
+  "name": "gulp-wordpress-workflow",
+  "version": "1.0.0",
+  "description": "A gulp WordPress workflow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisvdLeij/gulp-workflow.git"
+  },
+  "author": "Chris vd Leij",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisvdLeij/gulp-workflow/issues"
+  },
+  "homepage": "https://github.com/ChrisvdLeij/gulp-workflow#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4"
+  }
+}
