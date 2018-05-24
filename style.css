@@ -1,4 +1,6 @@
 .test {
-  color: red; }
+  color: black; }
+  .test .peter {
+    color: #000000; }
 
 /*# sourceMappingURL=style.css.map */
