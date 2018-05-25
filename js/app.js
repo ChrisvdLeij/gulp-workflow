@@ -80,7 +80,7 @@ console.log(__WEBPACK_IMPORTED_MODULE_0__modules_logger__["a" /* log */]);
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-const log = 'logger is active';
+const log = 'logger is actived';
 /* harmony export (immutable) */ __webpack_exports__["a"] = log;
 
 

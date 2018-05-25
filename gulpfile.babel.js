@@ -24,7 +24,7 @@ gulp.task('compile:sass', () => {
     .pipe(autoprefixer())
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('./'))
-    .pipe(notify("SASS compiling done"));
+    .pipe(notify({ message: 'TASK: "compile:sass" Completed!', onLast: true }));
 });
 
 gulp.task('lint:sass', () => {
@@ -37,7 +37,8 @@ gulp.task('lint:sass', () => {
 gulp.task('compile:js', () => {
   gulp.src(paths.webpackIndex)
     .pipe(webpackStream(webpackConfig), webpack)
-    .pipe(gulp.dest(paths.jsDest));
+    .pipe(gulp.dest(paths.jsDest))
+    .pipe(notify({ message: 'TASK: "compile:js" Completed!', onLast: true }));
 });
 
 gulp.task('clean', () => {

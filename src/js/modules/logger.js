@@ -1,1 +1,1 @@
-export const log = 'logger is active';
+export const log = 'logger is actived';
