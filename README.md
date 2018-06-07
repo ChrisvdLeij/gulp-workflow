@@ -1,10 +1,10 @@
 # gulp-workflow
 A Gulp workflow for WordPress
 
-## INIT
+## Install
 In your terminal: insert 'cd root/of/your/theme' and then install dependencies by inserting 'npm i' and hit enter
 
-## Staring Gulp
+## Starting Gulp
 In your terminal: insert 'gulp' and hit enter
 
 ## SASS
